@@ -42,7 +42,7 @@ Pre-trained model weights for DiffKA are available below:
 
 | Model | Dataset | Download |
 |-------|---------|----------|
-| DiffKA_model | RNT + RID | [Download](https://github.com/val-utehy/DiffKA) |
+| DiffKA_model | RNT + RID | [Download](https://github.com/val-utehy/DiffKA/raw/refs/heads/main/DiffKA_model.pt) |
 
 Place the downloaded weights at the root of the repository:
 
@@ -76,5 +76,5 @@ print("Inference completed.")
 
 ## Acknowledgement
 
-The codebase is built upon [Ultralytics](https://github.com/ultralytics/ultralytics) and [YOLOv12](https://github.com/sunsmarterjie/yolov12).  
+The codebase is built upon [Ultralytics](https://github.com/ultralytics/ultralytics) and [YOLOv10](https://github.com/THU-MIG/yolov10).  
 We sincerely thank the authors of the RNT and RID datasets for making their benchmarks publicly available, and the broader object detection community for their foundational contributions.
