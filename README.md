@@ -24,8 +24,8 @@ DDiffKA is a novel approach for robust object detection under rainy nighttime we
 
 ### RNT Dataset — Rainy Night Dataset
 
-- **Paper:** [Multilevel knowledge transmission for object detection in rainy night weather conditions](https://ieeexplore.ieee.org/abstract/document/10541873)
-- A challenging benchmark containing real-world images captured under rainy nighttime conditions, designed to evaluate object detection robustness in combined rain and low-light degradation.
+- **Paper:** [Multilevel knowledge transmission for object detection in rainy night weather conditions (IEEE Transactions on Industrial Informatics 2024)](https://ieeexplore.ieee.org/abstract/document/10541873)
+- A challenging benchmark dataset for object detection in rainy weather conditions .
 
 ### RID Dataset — Rain In Driving
 
