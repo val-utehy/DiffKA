@@ -16,9 +16,7 @@ DiffKA
 
 ## Introduction
 
-DiffKA is a novel approach for robust object detection under **rainy nighttime conditions**. The model leverages a **diffusion-based knowledge absorption** mechanism that enables the detector to effectively learn from degraded images by transferring knowledge from clean image distributions to rain-corrupted nighttime ones.
-
-DiffKA addresses the fundamental challenge of domain shift caused by rain and low-light degradation at night — where standard detectors trained on clean data suffer significant performance drops when deployed in real-world rainy night scenarios. By integrating a diffusion-guided denoising prior into the detection pipeline, DiffKA achieves robust feature extraction and maintains high detection accuracy under rainy nighttime conditions.
+DDiffKA is a novel approach for robust object detection under rainy nighttime weather conditions. The model leverages a diffusion-based knowledge absorption mechanism that enables the detector to effectively learn clean features from degraded images. Comprehensive evaluations on various datasets demonstrate that DiffKA acquires the highest performance, outperforming existing methods on two benchmark datasets, including a rainy nighttime (RNT) dataset and a Rain in Driving (RID) dataset.
 
 ---
 
