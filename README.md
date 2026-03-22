@@ -16,23 +16,23 @@ DiffKA
 
 ## Introduction
 
-DiffKA is a novel approach for robust object detection under challenging weather conditions, including rain, haze, fog, and low-visibility scenarios. The model leverages a **diffusion-based knowledge absorption** mechanism that enables the detector to effectively learn from degraded images by transferring knowledge from clean image distributions to corrupted ones.
+DiffKA is a novel approach for robust object detection under **rainy nighttime conditions**. The model leverages a **diffusion-based knowledge absorption** mechanism that enables the detector to effectively learn from degraded images by transferring knowledge from clean image distributions to rain-corrupted nighttime ones.
 
-DiffKA addresses the fundamental challenge of domain shift caused by adverse weather — where standard detectors trained on clean data suffer significant performance drops when deployed in real-world rainy or hazy conditions. By integrating a diffusion-guided denoising prior into the detection pipeline, DiffKA achieves robust feature extraction and maintains high detection accuracy across varying weather severities.
+DiffKA addresses the fundamental challenge of domain shift caused by rain and low-light degradation at night — where standard detectors trained on clean data suffer significant performance drops when deployed in real-world rainy night scenarios. By integrating a diffusion-guided denoising prior into the detection pipeline, DiffKA achieves robust feature extraction and maintains high detection accuracy under rainy nighttime conditions.
 
 ---
 
 ## Datasets
 
-### RNT Dataset
+### RNT Dataset — Rainy Night Dataset
 
-- **Paper:** [RNT: Real-World Nighttime and Adverse Weather Benchmark](https://ieeexplore.ieee.org/abstract/document/10541873)
-- A challenging benchmark containing real-world images captured under nighttime and adverse weather conditions, designed to evaluate object detection robustness.
+- **Paper:** [Multilevel knowledge transmission for object detection in rainy night weather conditions](https://ieeexplore.ieee.org/abstract/document/10541873)
+- A challenging benchmark containing real-world images captured under rainy nighttime conditions, designed to evaluate object detection robustness in combined rain and low-light degradation.
 
-### RID Dataset
+### RID Dataset — Rain In Driving
 
 - **Paper:** [Single Image Deraining: A Comprehensive Benchmark Analysis (CVPR 2019)](https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Single_Image_Deraining_A_Comprehensive_Benchmark_Analysis_CVPR_2019_paper.html)
-- A comprehensive deraining benchmark providing paired rainy/clean image sets for training and evaluating image restoration and detection methods under rain degradation.
+- A comprehensive deraining benchmark collected from driving scenarios, providing paired rainy/clean image sets for training and evaluating detection models under rain degradation.
 
 ---
 
