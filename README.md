@@ -16,7 +16,7 @@ DiffKA
 
 ## Introduction
 
-DDiffKA is a novel approach for robust object detection under rainy nighttime weather conditions. The model leverages a diffusion-based knowledge absorption mechanism that enables the detector to effectively learn clean features from degraded images. Comprehensive evaluations on various datasets demonstrate that DiffKA acquires the highest performance, outperforming existing methods on two benchmark datasets, including a rainy nighttime (RNT) dataset and a Rain in Driving (RID) dataset.
+DiffKA is a novel approach for robust object detection under rainy nighttime weather conditions. The model leverages a diffusion-based knowledge absorption mechanism that enables the detector to effectively learn clean features from degraded images. Comprehensive evaluations on various datasets demonstrate that DiffKA acquires the highest performance, outperforming existing methods on two benchmark datasets, including a rainy nighttime (RNT) dataset and a Rain in Driving (RID) dataset.
 
 ---
 
@@ -25,9 +25,9 @@ DDiffKA is a novel approach for robust object detection under rainy nighttime we
 ### RNT Dataset — Rainy Night Dataset
 
 - **Paper:** [Multilevel knowledge transmission for object detection in rainy night weather conditions (IEEE Transactions on Industrial Informatics 2024)](https://ieeexplore.ieee.org/abstract/document/10541873)
-- A challenging benchmark dataset for object detection in rainy weather conditions .
+- A challenging benchmark dataset for object detection in rainy weather conditions.
 
-### RID Dataset — Rain In Driving
+### RID Dataset — Rain In Driving Dataset
 
 - **Paper:** [Single Image Deraining: A Comprehensive Benchmark Analysis (CVPR 2019)](https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Single_Image_Deraining_A_Comprehensive_Benchmark_Analysis_CVPR_2019_paper.html)
 - A comprehensive deraining benchmark collected from driving scenarios, providing paired rainy/clean image sets for training and evaluating detection models under rain degradation.
